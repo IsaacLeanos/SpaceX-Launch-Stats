@@ -4,8 +4,8 @@
   "description": "App that list SpaceX launch statistics using React, Apollo, GraphQL, & Express",
   "main": "server.js",
   "scripts": {
-    "start":"node server.js",
-    "server":"nodemon server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
