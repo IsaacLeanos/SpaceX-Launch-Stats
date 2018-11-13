@@ -1,4 +1,4 @@
-const{GraphQLObjectType,GraphQLInt,GraphQLString,GraphQLBoolean,GraphQLList}=require('graphql');
+const{GraphQLObjectType,GraphQLInt,GraphQLString,GraphQLBoolean,GraphQLList,GraphQLSchema}=require('graphql');
 const axios=require('axios');
 
 // launch type
@@ -32,8 +32,12 @@ const RootQuery=new GraphQLObjectType({
             type:GraphQLList(LaunchType),
             resolve(parent,args){
                 return axios.get('https://api.spacexdata.com/v3/launches')
-                .then()
+                .then(res=>res.data);
             }
         }
     })
+});
+
+module.exports=new GraphQLSchema({
+    query:RootQuery
 });
