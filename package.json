@@ -1,0 +1,29 @@
+{
+  "name": "spacex-launch-stats",
+  "version": "1.0.0",
+  "description": "App that list SpaceX launch statistics using React, Apollo, GraphQL, & Express",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js",
+    "server":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacleanos/SpaceX-Launch-Stats.git"
+  },
+  "author": "Isaac Leanos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacleanos/SpaceX-Launch-Stats/issues"
+  },
+  "homepage": "https://github.com/isaacleanos/SpaceX-Launch-Stats#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
