@@ -50,7 +50,7 @@ const RootQuery=new GraphQLObjectType({
 
         // rockets
         rockets:{
-            // fetch launches data
+            // fetch rockets data
             type:GraphQLList(RocketType),
             resolve(parent,args){
                 return axios.get('https://api.spacexdata.com/v3/rockets')
