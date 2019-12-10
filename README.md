@@ -1,7 +1,7 @@
 ## SpaceX-API
 
-- React application displaying successful and failed rocket launch attempts using SpaceX API data, React, Apollo, Express, & GraphQL
-- Simply, this application utilizes the SpaceX API to fetch details for past SpaceX launches priot to 2006.  
+- Technologies used : React, Apollo, Express, & GraphQL
+- Simply, this application utilizes the SpaceX API to fetch details for past SpaceX launches prior to 2006.  
 
 ---
 
